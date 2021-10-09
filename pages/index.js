@@ -7,9 +7,9 @@ export default function Home() {
     let title = 'ともすた'
 
     // ここから追加
-    const {data, error} = useSWR('/api/message')
-    if (error) return <div>failed to load</div>
-	if (!data) return <div>loading...</div>
+    //const {data, error} = useSWR('/api/message')
+    //if (error) return <div>failed to load</div>
+    //if (!data) return <div>loading...</div>
 	
     return (
 	<>
