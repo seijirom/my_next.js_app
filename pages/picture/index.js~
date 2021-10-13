@@ -1,0 +1,14 @@
+export default function Picture() {
+    return (
+	    <>
+	    <h1>sample pic</h1>
+	    <Image
+	src="../../node_modules/node-libs-browser/node_modules/stream-http/test/server/static/browserify.png"
+	alt="sample pic"
+	width={500}
+	height={500}
+	    />
+	    <p>Welcome</p>
+	    </>
+    )
+}

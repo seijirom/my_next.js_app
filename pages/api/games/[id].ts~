@@ -1,0 +1,5 @@
+export default (req: NextApiRequest, res: NextApiResponse<Game | undefined>) => {
+  const id = req.query.id
+  const game = getGameData(id as string)
+  res.status(200).json(game)
+}
